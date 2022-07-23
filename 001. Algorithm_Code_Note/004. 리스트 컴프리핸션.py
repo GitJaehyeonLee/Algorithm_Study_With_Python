@@ -1,0 +1,1 @@
+num_cnt = [0 for _ in range(9)]
