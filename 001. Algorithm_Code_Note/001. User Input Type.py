@@ -8,5 +8,5 @@ import sys
 
 A, B = map(int, sys.stdin.readline().split())
 
-# 문자열 변수를 받을 떄에는 input 을 조금 더 활용하자. 
-# sys는 1개 변수를 받는 경우 개행이 들어가게 된다.
+# sys는 1개 변수를 받는 경우 개행이 들어가게 된다. rstirp 을 추가하자.
+A, B = map(int, sys.stdin.readline().rstrip().split())
